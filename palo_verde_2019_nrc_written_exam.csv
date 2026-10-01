@@ -1,0 +1,1283 @@
+Question Number,Question,Option A,Option B,Option C,Option D,Correct Answer
+1,"RCP Seal Injection is supplied to the RCPs from the discharge of the ___(1)___ and the 
+normal discharge path for RCP Controlled Bleedoff is to the ___(2)___ .","(1)  Charging Pumps 
+(2)  Reactor Drain Tank","(1)  Charging Pumps 
+(2)  Volume Control Tank","(1)  Nuclear Cooling Water Pumps 
+(2)  Reactor Drain Tank","(1)  Nuclear Cooling Water Pumps 
+(2)  Volume Control Tank",B
+2,"Given the following conditions: 
+ 
+ Unit 2 is operating at 100% power 
+ Letdown Heat Exchanger Outlet Temperature Controller, CHN-TIC-223, setpoint has 
+just failed from 115°F to 100°F 
+ 
+Over the next hour, if NO operator action is taken, RCS temperature will ___(1)___ and 
+RCS pressure will ___(2)___ .","(1)  rise 
+(2)  rise, then lower to the initial RCS pressure","(1)  rise 
+(2)  rise, then stabilize at a higher than initial RCS pressure","(1)  lower 
+(2)  lower, then rise to the initial RCS pressure","(1)  lower 
+(2)  lower, then stabilize at a lower than initial RCS pressure",A
+3,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power, preparing to commence a downpower  
+ The CRS directs the OATC to commence a 1200 gallon boration to the suction of 
+the Charging Pumps at a rate of 40 gpm per 40OP-9CH01, CVCS Normal 
+Operations, Section 6.33, Makeup – Borate Mode 
+ Charging flow is 88 gpm 
+ Letdown is in service 
+ Initial VCT level is 43% 
+ 
+(1) If NO operator action is taken during the boration, the boration should take 
+approximately… 
+ 
+(2) When the boration stops, VCT level will be between…","(1)  14 minutes 
+(2)  34 – 44%","(1)  14 minutes 
+(2)  58 – 60%","(1)  30 minutes 
+(2)  34 – 44%","(1)  30 minutes 
+(2)  58 – 60%",D
+4,"(1) What is the power supply to Loop 1 SDC Isolation Valve, SIA-UV-651? 
+ 
+(2) What is the power supply to Loop 1 SDC Isolation Valve, SIC-UV-653?","(1) Class 125 VDC Power 
+(2) Class 125 VDC Power","(1) Class 125 VDC Power 
+(2) Class 480 VAC Power","(1) Class 480 VAC Power 
+(2) Class 125 VDC Power","(1) Class 480 VAC Power 
+(2) Class 480 VAC Power",C
+5,"Given the following conditions: 
+ 
+ The ‘A’ EDG was just paralleled with the grid for a load run 
+ ‘A’ EDG indications: 
+o Red light is ON, green light is OFF on the ‘A’ EDG Output Breaker 
+o 1.5 MW 
+o 2.6 MVAR 
+ 
+Subsequently: 
+ 
+ Multiple alarms annunciate in the control room 
+ ‘A’ EDG indications: 
+o Both ‘A’ EDG Output Breaker lights are OFF 
+o 0 MW 
+o > 8 MVAR 
+ 
+Based on the provided indications, a loss of ___(1)___ has occurred and per 40AO-
+9ZZ13, Loss of Class Instrument or Control Power, the OATC should direct an AO to 
+___(2)___ .","(1)  PKA-M41 
+(2)  emergency stop the ‘A’ EDG","(1)  PKA-M41 
+(2)  open the ‘A’ EDG Output Breaker","(1)  PNA-D25 
+(2)  emergency stop the ‘A’ EDG","(1)  PNA-D25 
+(2)  open the ‘A’ EDG Output Breaker",B
+6,"Given the following conditions: 
+ 
+ Unit 1 was tripped from 100% power due to a LOCA 
+ The crew has performed SPTAs and the CRS has entered 40EP-9EO03, Loss of 
+Coolant Accident 
+ RCS Subcooling is 35°F subcooled and slowly degrading 
+ Pressurizer Level is 13% and rising slowly 
+ Both SGs are 20% NR and rising slowly, being fed by AFB-P01 
+ RVLMS indicates 73% in the Plenum 
+ Containment Temperature is 140° and rising slowly 
+ 
+Per 40EP-9EO03, LOCA, which of the following parameters is PREVENTING the crew 
+from throttling HPSI flow?",RCS Subcooling,Pressurizer Level,Reactor Vessel Level,Steam Generator Level,C
+7,"Given the following conditions: 
+ 
+ An automatic SIAS actuation has just occurred  
+ Class buses are all powered from off-site power 
+ 
+As SIAS actuated equipment starts, the crew should expect to see the Spray Pond 
+Pumps start ___(1)___ the EDGs and should expect to see the Essential Cooling Water 
+Pumps start ___(2)___ the Essential Chillers.","(1) after 
+(2) after","(1) after 
+(2) before","(1) before 
+(2) after","(1) before 
+(2) before",B
+8,"The RDT rupture disk will burst if RDT pressure reaches a MINIMUM of ___(1)___ psig 
+and when the rupture disks bursts, level will begin to rise in the ___(2)___ .","(1) 60  
+(2) Hold Up Tank","(1) 60  
+(2) Containment Sump","(1) 120  
+(2) Hold Up Tank","(1) 120  
+(2) Containment Sump",D
+9,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ House loads are aligned to Unit Aux Transformer, MAN-X02 
+ The ‘A’ NC Pump is running 
+ The ‘B’ NC Pump is in standby 
+ 
+Subsequently: 
+ 
+ 13.8KV Bus, NAN-S05, Normal Feeder Breaker trips on 86 lockout 
+ 
+One minute after the 86 lockout on the NAN-S05 Normal Feeder Breaker,  
+the ___(1)___ NC Pump will be running, and the ‘A’ EW Pump will be ___(2)___ .","(1) ‘A’ 
+(2) running","(1) ‘A’ 
+(2) stopped","(1) ‘B’ 
+(2) running","(1) ‘B’ 
+(2) stopped",A
+10,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ Pressure Control Channel Selector, RCN-HS-100, is selected to Channel X 
+ Pressurizer Proportional Heaters are both energized 
+ One bank of Non-Class Pressurizer Backup Heaters are energized and in 
+SETPOINT OVERRIDE 
+  
+(1) If OUTPUT on Pressurizer Pressure Controller, RCN-PIC-100, RISES, proportional 
+heater output will… 
+  
+(2) If the NON-SELECTED Pressurizer Pressure Transmitter, PI-100Y, fails high, the 
+energized Non-Class Pressurizer Backup Heater bank will…","(1)  rise 
+(2)  de-energize","(1)  rise 
+(2)  remain energized","(1)  lower 
+(2)  de-energize","(1)  lower 
+(2)  remain energized",D
+11,"Given the following conditions: 
+ 
+ Unit 2 tripped from 100% power due to a trip of the 2B RCP 
+ BOTH Main Feedwater Pumps tripped on the Reactor trip 
+ Standard Post Trip Actions are in progress 
+ The BOP is feeding both SGs at 500 gpm using AFN-P01 
+ 
+If the crew maintains the current feed rate throughout SPTAs, SG level will rise 
+___(1)___, and the crew should ___(2)___ .","(1)  faster in SG #2 
+(2)  maintain 3 RCPs in operation until SPTAs have been completed","(1)  faster in SG #2 
+(2)  trip an RCP in the opposite loop prior to the completion of SPTAs","(1)  at the same rate in both SGs 
+(2)  maintain 3 RCPs in operation until SPTAs have been completed","(1)  at the same rate in both SGs 
+(2)  trip an RCP in the opposite loop prior to the completion of SPTAs",A
+12,"Given the following conditions: 
+ 
+ The RDT is being pumped to the Hold-up Tank to lower level in the RDT per  
+40OP-9CH06, CVCS Miscellaneous Operations, Section 6.8, Pumping the Reactor 
+Drain Tank to the Holdup Tank Bypassing the Gas Stripper 
+ 
+Subsequently: 
+ 
+ Pressurizer Safety Valve, RCE-PSV-200, begins leaking 
+ RDT pressure is 8 psig and slowly rising 
+ Pressurizer pressure is 2250 psia and stable 
+ 
+Assuming NO operator action has been taken: 
+  
+(1) CHA-UV-560, Reactor Drain Tank Outlet Isolation Valve, is CURRENTLY… 
+ 
+(2) Assuming RDT pressure continues to rise and Pressurizer pressure remains 
+constant, tailpipe temperature for RCE-PSV-200 will…","(1)  open 
+(2)  rise","(1)  open 
+(2)  remain constant","(1)  closed 
+(2)  rise","(1)  closed 
+(2)  remain constant",A
+13,"Given the following conditions: 
+ 
+ Unit 3 was manually tripped due to a small break LOCA 
+ SIAS and CIAS were manually actuated on the trip 
+ Pressurizer pressure is 1700 psia and stable 
+ Pressurizer level is 15% and slowly rising 
+ Containment pressure is 2.1 psig and rising at a rate of 0.1 psig every 5 minutes 
+ Refueling Water Tank level is 92% and slowly lowering 
+ The CRS has transitioned to 40EP-9EO03, Loss of Coolant Accident 
+ 
+Regarding Containment Spray Pump operation, per 40DP-9AP08, Loss of Coolant 
+Accident Technical Guideline, the crew should…",trip both Containment Spray Pumps to conserve inventory in the RWT,trip both Containment Spray Pumps to prevent pump damage due to overheating,leave both Containment Spray Pumps running until the SIAS actuation is reset,"leave both Containment Spray Pumps running until Containment pressure stops 
+rising",B
+14,"Given the following conditions: 
+ 
+ Unit 2 automatically tripped from 100% power  
+ The following indications exist: 
+o Pressurizer Level is 5% and lowering  
+o Pressurizer Pressure is 1000 psia and lowering 
+o RCS Tave is 535°F and slowly lowering 
+o Radiation levels in Containment are slowly rising 
+ No operator actions have been taken 
+ 
+Based on the listed indications, which of the following events is in progress?",Steam Generator Tube Rupture,Pressurizer Steam Space LOCA,RCS Cold Leg Break inside Containment,Main Steam Line Break inside Containment,C
+15,"Given the following conditions: 
+ 
+ Unit 3 tripped from 100% power due to an 86 lockout trip of RCP 1B 
+ During SPTAs, Seal Injection was lost to all 4 RCPs and cannot be restored 
+ 
+Per 40AO-9ZZ04, Reactor Coolant Pump Emergencies, Controlled Bleedoff Flow from 
+RCP 1B should be isolated prior to ___(1)___ exceeding a MAXIMUM of 250°F. 
+ 
+The loss of Seal Injection ___(2)___ cause HP Seal Cooler inlet temperature to exceed 
+RCP trip criteria on the three operating RCPs.","(1)  Seal #1 inlet temperature 
+(2)  WILL","(1)  Seal #1 inlet temperature 
+(2)  will NOT","(1)  Seal #2 outlet temperature 
+(2)  WILL","(1)  Seal #2 outlet temperature 
+(2)  will NOT",D
+16,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ The Charging Pump Mode Selector Switch, CHN-HS-4, is in the 1-2-3 position 
+ The ‘E’ Charging Pump is aligned to Train ‘B’  
+ 
+Subsequently: 
+ 
+ The ‘A’ Charging Pump tripped on 86 lockout 
+ 
+Per 40AL-9RK3A, Window 3A08A, CHG HDR SYS TRBL, the ‘E’ Charging Pump 
+should…","remain aligned to Train ‘B’ and be manually started by taking the ‘E’ Charging 
+Pump handswitch, CHB-HS-218, to START","remain aligned to Train ‘B’ and be auto-started by taking the Charging Pump Mode 
+Selector Switch, CHN-HS-4, to the 2-3-1 position","be transferred to Train ‘A’, then be manually started by taking the ‘E’ Charging 
+Pump handswitch, CHA-HS-218A, to START","be transferred to Train ‘A’, then be auto-started by taking the Charging Pump Mode 
+Selector Switch, CHN-HS-4, to the 2-3-1 position",B
+17,"Given the following conditions: 
+ 
+ Unit 3 is cooling down for a refueling outage 
+ Train ‘B’ SDC is in service using the ‘B’ LPSI Pump 
+ 
+Subsequently: 
+ 
+ The ‘B’ EW Pump tripped on 86 lockout 
+ 
+Per 40EP-9EO11, Lower Mode Functional Recovery, which of the following pumps can 
+be aligned to provide cooling to the ‘B’ SDCHX in order to restore shutdown cooling 
+using the ‘B’ LPSI Pump? 
+ 
+1. ‘B’ Spray Pond Pump 
+2. ‘B’ Nuclear Cooling Water Pump 
+3. ‘A’ Essential Cooling Water Pump",1 ONLY,2 ONLY,1 and 3 ONLY,2 and 3 ONLY,B
+18,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ All Charging Pumps are in Pull to Lock due to gas binding 
+ 
+Subsequently: 
+ 
+ A complete loss of NC flow has occurred 
+ 
+(1) Per 40AO-9ZZ03, Loss of Cooling Water, to avoid being procedurally required to 
+trip the Reactor, the crew must re-establish cooling water to the RCPs within a 
+MAXIMUM of… 
+ 
+(2) Per 40DP-9ZZ04, Time Critical Action Program, RCP damage may occur if the 
+RCPs are allowed to operate without cooling water for a MINIMUM of…","(1)  3 minutes 
+(2)  15 minutes","(1)  3 minutes 
+(2)  30 minutes","(1)  10 minutes 
+(2)  15 minutes","(1)  10 minutes 
+(2)  30 minutes",B
+19,"Given the following condition: 
+ 
+ Unit 2 was manually tripped from 20% power in preparation for a refueling outage 
+ 
+(1) How can the BOP verify the DFWCS shifted to the proper post-trip mode of 
+operation? 
+  
+(2) If the BOP needed to lower feed flow to control RCS temperature, he/she would…","(1)  “1E” will be displayed on the DFWCS screen 
+(2)  lower MFP speed by adjusting the speed bias controller on B06","(1)  “1E” will be displayed on the DFWCS screen 
+ (2)  take manual control of Downcomer control valves and lower output","(1)  “RTO” will be displayed on the DFWCS screen 
+(2)  lower MFP speed by adjusting the speed bias controller on B06","(1)  “RTO” will be displayed on the DFWCS screen 
+(2)  take manual control of Downcomer control valves and lower output",D
+20,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ Pressurizer level is 15% and lowering 
+ Containment pressure is 3.2 psig and rising 
+ Both SG pressures are 980 psig and lowering 
+ The Reactor failed to automatically trip and pressing the manual pushbuttons on B05 
+also failed 
+ 
+An automatic Reactor trip should have initiated on ___(1)___ and entry conditions to 
+SPTAs are ___(2)___.","(1)  High Containment pressure 
+(2)  MET","(1)  Low SG pressure 
+(2)  MET","(1)  High Containment pressure 
+(2)  NOT met","(1)  Low SG pressure 
+(2)  NOT met",A
+21,"Given the following conditions:   
+ 
+ Unit 1 was tripped due to a SGTR on SG #2 
+ SIAS and CIAS were automatically actuated 
+ One RCP in each loop has been stopped 
+ SG #2 has just been isolated 
+ The crew is preparing to depressurize the RCS 
+ Current RCS parameters are as follows: 
+o Thot = 535°F 
+o Tcold = 532°F 
+o RCS pressure = 1050 psia 
+o SG pressures = 930 psia 
+ 
+Based on current plant conditions, the crew should…",trip the two running RCPs to minimize heat input into the RCS,trip the two running RCPs due to insufficient subcooling margin,maintain two RCPs running to facilitate the RCS depressurization using Main Spray,"maintain two RCPs running to minimize the effects of the RCS dilution during the 
+depressurization",B
+22,"Given the following conditions: 
+ 
+ Unit 2 tripped from 100% power due to an ESD inside containment 
+ Current plant conditions are as follows: 
+o Pressurizer pressure is 1500 psia 
+o SG #1 level is 25% WR  
+o SG #1 pressure is 700 psia  
+o SG #2 level is 45% WR  
+o SG #2 pressure is 1000 psia  
+ 
+With NO operator action, ___(1)___ is/are running, and ___(2)___ is currently  
+being fed.","(1)  ONLY AFB-P01 
+(2)  neither SG","(1)  ONLY AFB-P01 
+(2)  ONLY SG #2","(1)  AFA-P01 AND AFB-P01  
+(2)  neither SG","(1)  AFA-P01 AND AFB-P01 
+(2)  ONLY SG #2",A
+23,"Given the following conditions: 
+ 
+ Unit 1 is operating at 50% power 
+ The ‘B’ MFP is running 
+ The ‘A’ MFP is in hot standby 
+ 
+Subsequenty: 
+ 
+ The ‘B’ MFP tripped 
+ 
+With NO operator action, the Reactor will automatically trip as soon as SG levels lower 
+to ___(1)___ in order to ensure ___(2)___ .","(1)  23.5% Narrow Range 
+(2)  the Reactor is tripped prior to the top of the U-tubes becoming uncovered","(1)  23.5% Narrow Range 
+(2)  sufficient SG inventory to steam for at least 10 minutes before AFAS actuates","(1)  44.2% Wide Range 
+(2)  the Reactor is tripped prior to the top of the U-tubes becoming uncovered","(1)  44.2% Wide Range 
+(2)  sufficient SG inventory to steam for at least 10 minutes before AFAS actuates",D
+24,"During a station blackout on Unit 1, which of the following faults/lockouts, 
+INDIVIDUALLY, MUST be cleared/reset prior to re-energizing PBB-S04 from an SBOG? 
+ 
+1.  Bus fault on 13.8kV Bus, NAN-S04 
+2.  Bus fault on 125 VDC Class Instrument Bus PKB-M42 
+3.  86 lockout trip of PBB-S04L, PBB-S04 to PBA-S03 Alternate Supply Breaker",1 and 2 ONLY,1 and 3 ONLY,2 ONLY,3 ONLY,D
+25,"Unit 1 was operating at 100% power when a Loss of Offsite Power occurred. 
+ 
+In response to the Loss of Offsite Power: 
+ 
+(1)  The LOP/LS module will generate a Load Shed pulse PRIOR TO the LOP signal to 
+ensure… 
+ 
+(2)  The LOP signal remains locked for 60 seconds after the class buses are re-
+energized to ensure…","(1)  previously running loads re-started by the sequencer are not anti-pumped 
+(2)  a double sequencing condition does not occur","(1)  previously running loads re-started by the sequencer are not anti-pumped 
+(2)  the sequencer completes load sequencing prior to the LOP signal being reset","(1)  the Emergency Diesel Generator is not overloaded during load sequencing 
+(2)  a double sequencing condition does not occur","(1)  the Emergency Diesel Generator is not overloaded during load sequencing 
+(2)  the sequencer completes load sequencing prior to the LOP signal being reset",D
+26,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ Channel ‘A’ 120 VAC Class Instrument Bus, PNA-D25, is being powered from 
+Channel ‘A’ Inverter, PNA-N11 
+ Inverter, PNE-N15, is not supplying PNA-D25 or PNC-D27 
+ 
+Subsequently: 
+ 
+ The feeder breaker from 125 VDC DC Control Center, PKA-M41, to Inverter  
+PNA-N11, tripped open 
+ 
+With NO operator action, PNA-D25 will automatically transfer to ___(1)___ , and when 
+the feeder breaker from PKA-M41 to PNA-N11 is reclosed, PNA-D25 can be manually 
+transferred back to Channel ‘A’ Inverter, PNA-N11, by depressing the ___(2)___ 
+pushbutton.","(1)  Inverter, PNE-N15 
+(2)  INVERTER TO LOAD","(1)  Inverter, PNE-N15 
+(2)  BYPASS SOURCE TO LOAD","(1)  Voltage Regulator, PNA-V25  
+(2)  INVERTER TO LOAD","(1)  Voltage Regulator, PNA-V25 
+(2)  BYPASS SOURCE TO LOAD",C
+27,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ 
+Subsequently: 
+ 
+ A fault on Class 125 VDC Bus, PKA-M41, caused the following breakers to open  
+on PKA-M41: 
+o PKA-M4102, ‘A’ Battery Output Breaker 
+o PKA-M4104, ‘A’ Battery Charger DC Output Breaker 
+ 
+Which of the following describes the status of control power to AFN-P01?",Control power to AFN-P01 is remains energized,"Control power to AFN-P01 is lost and can be restored by transferring to the output 
+of the ‘A’ Battery","Control power to AFN-P01 is lost and can be restored by transferring to the output 
+of the ‘A’ Battery Charger","Control power to AFN-P01 is lost and cannot be restored until the fault on PKA-M41 
+is cleared",C
+28,"Given the following Instrument Air Header Pressure indications on UNIT 3: 
+   
+At time = 0100 At time = 0110 
+(lowest pressure reached) 
+At time = 0120 
+ 
+ 
+With NO operator action, at time = 0120, the Nitrogen Backup Valve will be ___(1)___ and 
+letdown will ___(2)___ .","(1)  open 
+(2)  be isolated","(1)  open 
+(2)  remain in service","(1)  closed 
+(2)  be isolated","(1)  closed 
+(2)  remain in service",B
+29,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ The Main Generator is boosting 150 MVAR 
+ 
+Subsequently: 
+ 
+ A grid disturbance has resulted in the Main Generator now boosting only 100 MVAR 
+ The ECC has directed Unit 1 to take action to resume boosting 150 MVAR 
+ 
+In order to accomplish this, the crew will need to adjust Main Generator ___(1)___ using 
+the ___(2)___ .","(1)  voltage 
+(2)  Load Limit Potentiometer","(1)  voltage 
+(2)  EX2100e digital control screen","(1)  frequency 
+(2)  Load Limit Potentiometer","(1)  frequency 
+(2)  EX2100e digital control screen",B
+30,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ A SGTL is in progress on SG #1 
+ RU-142, Main Steam Line N-16 Radiation Monitor, indicates a stable leakrate  
+of 500 gpd 
+ The crew is preparing to commence a downpower 
+ 
+During the downpower, the INDICATED leakrate on RU-142 will ___(1)___ and 
+following the completion of SPTAs, the CRS should transition to ___(2)___ .","(1)  rise 
+(2)  40EP-9EO02, Reactor Trip","(1)  rise 
+(2)  40EP-9EO04, Steam Generator Tube Rupture","(1)  lower 
+(2)  40EP-9EO02, Reactor Trip","(1)  lower 
+(2)  40EP-9EO04, Steam Generator Tube Rupture",D
+31,"Given the following indications (assume Channels B, C, and D have no lights lit): 
+ 
+ 
+ 
+Which of the following events/conditions are consistent with the provided indications?",A dropped CEA in the ‘A’ quadrant,Channel ‘A’ DNBR reading of 1.32,Channel ‘A’ CPC calculated ASI of -0.5,Channel ‘A’ Safety Channel NI failed off-scale high,C
+32,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ At time = 1300:  The Channel ‘C’ RWT bypass pushbutton was depressed at the 
+PPS cabinet in preparation for I&C testing scheduled to start at 1330 
+ At time = 1305:  (Prior to the start of I&C testing), Channel ‘B’ RWT level 
+transmitter, CHB-LI-203B, failed to 0% 
+ At time = 1310:  The BOP depressed the bypass pushbutton for the Channel ‘B’ 
+RWT bistable at the PPS cabinet 
+ 
+(1)  At time =1306, the coincidence logic for RAS was…. 
+ 
+(2)  At time = 1311, the coincidence logic for RAS was…","(1)  1 out of 1 
+(2)  2 out of 2","(1)  1 out of 1 
+(2)  2 out of 3","(1)  1 out of 2 
+(2)  2 out of 2","(1)  1 out of 2 
+(2)  2 out of 3",D
+33,"Given the following conditions: 
+ 
+ A Train ‘A’ and a Train ‘B’ MSIS have automatically actuated due to an ESD in the 
+Turbine Building 
+ Steam Generator pressures have both been returned to their normal post-trip bands 
+ The CRS has directed the BOP to reset the Train ‘A’ and the Train ‘B’ MSIS 
+actuations 
+ The RESET pushbutton on all four channels has been pressed on B05 
+ 
+Per 40EP-9EO10-028, Appendix 28 – MSIS Check and Reset, which of the following 
+describes the MINIMUM actions required at the ESFAS and PPS Cabinets to reset the 
+MSIS? 
+ 
+A MINIMUM of___(1)___ Trip Path Reset Pushbuttons for MSIS must be depressed at 
+the PPS Cabinets, and a MINIMUM of ___(2)___ LOCKOUT RESET pushbuttons at the 
+ESFAS Auxiliary Relay Cabinets must be depressed.","(1)  ONLY two (either A or B, AND either C or D) 
+(2)  ONLY one (one lockout reset pushbutton per train)","(1)  ONLY two (either A or B, AND either C or D) 
+(2)  BOTH (both lockout reset pushbuttons on Train ‘A’ and both lockout reset 
+pushbuttons on Train ‘B’)","(1)  ALL four (channels A, B, C, and D) 
+(2)  ONLY one (one lockout reset pushbutton per train)","(1)  ALL four (channels A, B, C, and D) 
+(2)  BOTH (both lockout reset pushbuttons on Train ‘A’ and both lockout reset 
+pushbuttons on Train ‘B’)",C
+34,"Given the following conditions: 
+ 
+ Unit 2 is operating at 100% power 
+ A complete loss of CEDM Cooling has just occurred 
+ 40AO-9ZZ20, Loss of HVAC, Section 10.0, Loss of Containment Building HVAC – 
+CEDM, has been entered 
+ 
+Assuming all efforts to restore at least one CEDM Cooling Fan are unsuccessful, Unit 2 
+must be shutdown within a MAXIMUM of ___(1)___ minutes and the RCS must be 
+cooled down to a MAXIMUM of ___(2)___ to prevent damage to the CEDM coils.","(1)  30  
+(2)  210°F","(1)  30 
+(2)  300°F","(1)  40 
+(2)  210°F","(1)  40 
+(2)  300°F",D
+35,"Given the following conditions: 
+ 
+ Unit 3 tripped from 100% power due to an ESD inside Containment 
+ SIAS, CIAS, MSIS, and CSAS have all automatically actuated 
+ The Train ‘A’ Containment Spray Pump tripped immediately upon starting  
+ Train ‘B’ Containment Spray Header Isolation Valve, SIB-UV-671, failed to auto 
+open and could NOT be opened from the control room or locally at the valve 
+ 
+Following SPTAs, the crew should transition to ___(1)___ and align the ___(2)___ to 
+provide Containment Spray through the Train ‘A’ Containment Spray Header Isolation 
+Valve, SIA-UV-672.","(1)  40EP-9EO05, Excess Steam Demand 
+(2)  Train ‘A’ LPSI Pump","(1)  40EP-9EO05, Excess Steam Demand 
+(2)  Train ‘B’ Containment Spray Pump","(1)  40EP-9EO09, Functional Recovery 
+(2)  Train ‘A’ LPSI Pump","(1)  40EP-9EO09, Functional Recovery 
+(2)  Train ‘B’ Containment Spray Pump",C
+36,"Per 40DP-9AP09, SG Tube Rupture Technical Guideline, during a natural circulation 
+cooldown with one SG isolated, the administrative cooldown rate limit is ___(1)___ to 
+ensure ___(2)___ during the cooldown.","(1)  30°F/hr 
+(2)  the heat removal capacity of a single SG is not exceeded","(1)  30°F/hr 
+(2)  the two SGs do not become thermodynamically uncoupled","(1)  50°F/hr 
+(2)  the heat removal capacity of a single SG is not exceeded","(1)  50°F/hr 
+(2)  the two SGs do not become thermodynamically uncoupled",B
+37,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ MFP Suction Pressure on BOTH MFPs is 300 psig and lowering 
+ 
+By design, if MFP suction pressure continues to lower, the ___(1)___ will trip first, due 
+to a ___(2)___ .","(1)  ‘A’  
+(2)  higher low suction pressure trip setpoint","(1)  ‘A’  
+(2)  shorter low suction pressure trip time delay","(1)  ‘B’  
+(2)  higher low suction pressure trip setpoint","(1)  ‘B’ 
+(2)  shorter low suction pressure trip time delay",D
+38,"Per LCO 3.7.5, Auxiliary Feedwater System, in MODE 1, the AFW Pumps required to 
+be OPERABLE are ___(1)___ . 
+ 
+During a shutdown, LCO 3.7.5 is no longer applicable AS SOON AS ___(2)___ .","(1)  AFA-P01 and AFB-P01 ONLY 
+(2)  MODE 4 is entered","(1)  AFA-P01 and AFB-P01 ONLY 
+(2)  SDC is placed in service","(1)  AFA-P01, AFB-P01, AND AFN-P01 
+(2)  MODE 4 is entered","(1)  AFA-P01, AFB-P01, AND AFN-P01 
+(2)  SDC is placed in service",D
+39,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ The ‘B’ EDG is paralleled with the grid for a load run 
+ 
+Subsequently: 
+ 
+ A transient on the grid has just resulted in ‘B’ EDG loading rising to 5.8 MW and  
+3.2 MVAR 
+ 
+The crew must reduce ___(1)___ EDG loading within a MAXIMUM of 2 hours to prevent 
+damage to the ‘B’ EDG due to ___(2)___ .","(1)  MW 
+(2)  overheating due to exceeding air intake and exhaust capabilities","(1)  MW 
+(2)  fire potential from gum and varnish deposits on the intake and exhaust valves","(1)  MVAR 
+(2)  overheating due to exceeding air intake and exhaust capabilities","(1)  MVAR   
+(2)  fire potential from gum and varnish deposits on the intake and exhaust valves",A
+40,"Unit 2 is preparing to remove the ‘E’ Battery Charger from service and align the ‘EF’ 
+Battery Charger to NKN-M45 for preventative maintenance on the ‘E’ Battery Charger. 
+ 
+Per 40OP-9NK01, 125 VDC Non-Class 1E Electrical System, the PREFERRED method 
+for aligning the ‘EF’ Battery Charger NKN-M45 is to ___(1)___ , and after the ‘EF’ 
+Battery Charger is aligned to NKN-M45, it CANNOT simultaneously be aligned to NKN-
+M46 due to a ___(2)___ interlock.","(1) open the ‘E’ Battery Charger output breaker before closing the ‘EF’ Battery 
+Charger output breaker 
+(2) Kirk-Key","(1) open the ‘E’ Battery Charger output breaker before closing the ‘EF’ Battery 
+Charger output breaker 
+(2) Mechanical Bar","(1) Close the ‘EF’ Battery Charger output breaker before opening the ‘E’ Battery 
+Charger output breaker 
+(2) Kirk-Key","(1) Close the ‘EF’ Battery Charger output breaker before opening the ‘E’ Battery 
+Charger output breaker 
+(2) Mechanical Bar",D
+41,"Given the following conditions: 
+ 
+ The ‘A’ EDG is operating at rated load 
+ An auto makeup to the ‘A’ Fuel Oil Day Tank is in progress 
+ 
+Subsequently: 
+ 
+ The associated Fuel Oil Transfer Pump tripped 
+ The ‘A’ EDG Fuel Oil Day Tank level is currently 800 gallons 
+ 
+Approximately how much longer can the ‘A’ EDG continue to operate at rated load?",~ 0.5 hours,~ 1 hour,~ 2 hours,~ 4 hours,C
+42,"Given the following conditions: 
+ 
+ Unit 2 is operating at 100% power 
+ Train ‘A’ Essential Cooling Water is supplying cooling water to NC priority loads 
+following a complete loss of Nuclear Cooling Water 
+ 
+Subsequently: 
+ 
+ A small leak occurred in an RCP High Pressure Seal Cooler 
+ 
+In this condition, which of the following process radiation monitors will be able to detect 
+the resultant activity? 
+ 
+1.  RU-2, Train ‘A’ Essential Cooling Water 
+2.  RU-3, Train ‘B’ Essential Cooling Water 
+3.  RU-6, Nuclear Cooling Water",1 ONLY,1 and 2 ONLY,1 and 3 ONLY,"1, 2, and 3",A
+43,The ‘A’ Plant Cooling Water Pump feeder breaker is located on…,NAN-S01,NAN-S02,NBN-S01,NBN-S02,C
+44,"Given the following conditions: 
+ 
+ Unit 2 is operating at 100% power 
+ An Instrument Air rupture has occurred just downstream of the IA compressors 
+ IA pressure is at atmospheric pressure throughout the system 
+ The nitrogen backup supply valve has failed closed 
+ 
+Based on these conditions, the Main Steam Isolation Valves will…",slow close due to the loss of IA,fast close due to the loss of IA,remain open and can only be slow closed,remain open and can only be fast closed,D
+45,"Given the following conditions: 
+ 
+ Unit 3 was manually tripped from 100% power due to an ESD inside Containment 
+ Current plant conditions are as follows: 
+o Pressurizer level is 15% and lowering 
+o Pressurizer pressure is 1900 psia and lowering 
+o SG #1 level is 10% NR and rising 
+o SG #2 level is 50% WR and lowering 
+o SG #1 pressure is 1100 psia and rising 
+o SG #2 pressure is 1000 psia and lowering 
+o Containment pressure is 5 psig and rising 
+ 
+Based on current plant conditions, which of the following Containment Isolation Valves 
+should be closed? 
+ 
+1.  SG Blowdown Containment Isolation Valve, SGA-UV-500P 
+2.  NC Containment Downstream Return Header Isolation Valve, NCA-UV-402 
+3.  Regenerative Heat Exchanger Outlet Isolation Valve, CHB-UV-523",1 and 2 ONLY,1 and 3 ONLY,2  and 3 ONLY,"1, 2, and 3",B
+46,"Per PVNGS EOP Operations Expectations, following an ESD, dryout is declared as 
+soon as…",RCS pressure begins to rise,RCS temperatures begin to rise,Affected SG level indicates 0% wide range,Affected SG pressure lowers to atmospheric pressure,B
+47,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ Current core conditions are as follows: 
+o 250 EFPD 
+o RCS Boron concentration is 825 ppm 
+o RCS Tavg is 587°F 
+ 
+Subsequently: 
+ 
+ Chemistry reported that RCS boron concentration is 20 ppm less than expected 
+based on the previous sample 
+ The CRS directs the crew to perform an emergency boration of 500 gallons per 
+40AO-9ZZ01, Emergency Boration, to raise RCS boron concentration 
+ Turbine load will be reduced to keep Tcold on program 
+ 
+Following the boration and associated load reduction, the crew should expect Reactor 
+power to be approximately ___(1)___ and Tave to be ___(2)___ than 587°F.","(1)  91% 
+(2)  lower","(1)  91% 
+(2)  higher","(1)  97% 
+(2)  lower","(1)  97% 
+(2)  higher",A
+48,"Given the following conditions: 
+ 
+ Unit 1 is making preparations to commence a reactor startup per 40OP-9ZZ03, 
+Reactor Startup, following a short notice outage 
+ The unit was maintained in MODE 4 during the shutdown 
+ Startup Channel NI #1 has just failed high, rendering it inoperable 
+ 
+With Startup Channel NI #1 inoperable, what is the impact, if any, to the Reactor 
+startup? 
+ 
+Per 40OP-9ZZ03, Reactor Startup, the Reactor startup ___(1)___ commence because 
+a MINIMUM of ___(2)___ in order to commence the startup.","(1)  can NOT 
+(2)  TWO channels of BDAS are required to be operable","(1)  can NOT 
+(2)  FOUR channels of Log Power High trip bistables are required to be operable","(1)  CAN 
+(2)  ONE channel of BDAS is required to be operable","(1)  CAN 
+(2)  THREE channels of Log Power High trip bistables are required to be operable",A
+49,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ The Evaporator is running 
+ The Aux Steam Cross-Tie Header is out of service 
+ 
+Subsequently: 
+ 
+ A SGTL develops on SG #2 
+ 
+The FIRST Radwaste System Process Radiation Monitor which will detect the increase 
+in radiation due to the SGTL is ___(1)___ which will cause an automatic ___(2)___ .","(1)  RU-12, Waste Gas Decay Tank Discharge Monitor 
+(2)  closure of the Waste Gas Discharge Valves","(1)  RU-12, Waste Gas Decay Tank Discharge Monitor 
+(2)  closure of Aux Steam Condensate Receiver Tank Outlet Valves","(1)  RU-7, Aux Steam Condensate Receiver Tank Inlet Monitor 
+(2)  diversion of condensate to the Liquid Radwaste System","(1)  RU-7, Aux Steam Condensate Receiver Tank Inlet Monitor 
+(2)  diversion of Aux Steam to the Gaseous Radwaste System",C
+50,"Given the following conditions: 
+ 
+ Unit 2 is operating at 100% power 
+ A failure of the selected Pressurizer Level Control Channel has resulted in rising 
+letdown flow 
+ 
+Letdown will auto isolate on high temperature by closing Letdown to Regen HX Isolation 
+Valve ___(1)___ if temperature at the outlet of the Regenerative Heat Exchanger rises 
+to a MINIMUM of ___(2)___ .","(1)  CHB-UV-515 
+(2)  395°F","(1)  CHB-UV-515 
+(2)  413°F","(1)  CHA-UV-516 
+(2)  395°F","(1)  CHA-UV-516 
+(2)  413°F",B
+51,"While operating at power, high reactor coolant activity indicative of potential fuel 
+cladding failure is primarily monitored by ___(1)___ and a high alarm on this RM 
+___(2)___ automatically isolate letdown.","(1)  Primary Coolant Activity Monitors, RU-150/151 
+(2)  WILL","(1)  Primary Coolant Activity Monitors, RU-150/151 
+(2)  will NOT","(1)  Reactor Coolant Letdown Line Radiation Monitor, RU-155D 
+(2)  WILL","(1)  Reactor Coolant Letdown Line Radiation Monitor, RU-155D 
+(2)  will NOT",D
+52,"Given the following conditions: 
+ 
+ Unit 2 is operating at 100% power 
+ At time = 1200, 3A10B, LD PROCESS MON TRBL, went into alarm 
+o RJ Point ID CHFS204, Letdown Radiation Monitor  Outlet Flow Hi-Lo, is 
+indicating 0 gpm 
+ At time = 1202, the Aux Building Operator reports a ~ 10 gpm leak at the in-service 
+Backpressure Control Valve 
+ 
+Per the 3A10B Alarm Response Procedure, the crew must close CHB-UV-515, Letdown 
+Regen HX Isolation Valve, within a MAXIMUM of ___(1)___ minutes, and the leakage 
+from the Backpressure Control Valve ___(2)___ considered RCS LEAKAGE per 
+Technical Specifications.","(1)  10 
+(2)  IS","(1)  10 
+(2)  is NOT","(1)  20 
+(2)  IS","(1)  20 
+(2)  is NOT",B
+53,"Which of the following ESFAS actuations can be DIRECTLY actuated from the Remote 
+Shutdown Panels? 
+ 
+1. AFAS 
+2. MSIS 
+3. SIAS",1 ONLY,2 ONLY,1 and 3 ONLY,2 and 3 ONLY,B
+54,"Given the following conditions: 
+ 
+ All 3 units have tripped due to a loss of offsite power 
+ Unit 2 had a failure of both EDGs and is in a blackout condition 
+ An SBOG has been aligned to Unit 2 and is powering PBA-S03 
+ 
+If either or both of the other units were to also experience a blackout condition, what 
+SBOG alignments, if any, are procedurally allowed?","No additional units can be powered from an SBOG while Unit 2 is being powered 
+from an SBOG","ONLY Unit 1 can be powered from an SBOG while Unit 2 is being powered from an 
+SBOG","ONLY Unit 3 can be powered from an SBOG while Unit 2 is being powered from an 
+SBOG","Both Units 1 and 3 can be powered from an SBOG while Unit 2 is being powered 
+from an SBOG",B
+55,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ The following indications are present on RCP 1B: 
+o Seal 2 Inlet Pressure is 2100 psig 
+o Seal 2 Outlet Pressure is 300 psig 
+o Controlled Bleedoff Flow is 10 gpm 
+ 
+Per 40AO-9ZZ04, RCP Emergencies, the crew should ___(1)___ due to ___(2)___ .","(1)  immediately trip the Reactor 
+(2)  failures of Seal 1 and Seal 3","(1)  immediately trip the Reactor  
+(2)  excessive Controlled Bleedoff Flow","(1)  commence a controlled plant shutdown 
+(2)  failures of Seal 1 and Seal 3","(1)  commence a controlled plant shutdown 
+(2)  excessive Controlled Bleedoff Flow",B
+56,"What is the basis for the Pressurizer level control band of 33-53% while AT POWER? 
+ 
+The low end of the band is set high enough to ensure ___(1)___ and the high end of the 
+band is set low enough to ensure ___(2)___ .","(1)  the Pressurizer heaters remain covered 
+(2)  the Main and Auxiliary Spray nozzle is not submerged","(1)  the Pressurizer heaters remain covered 
+(2)  the proportional heaters can heat the water mass enough to maintain 2250 psia","(1) Pressurizer pressure does not lower to the SIAS setpoint on an uncomplicated 
+Reactor trip 
+(2) the Main and Auxiliary Spray nozzle is not submerged","(1) Pressurizer pressure does not lower to the SIAS setpoint on an uncomplicated 
+Reactor trip 
+(2) the proportional heaters can heat the water mass enough to maintain 2250 psia",A
+57,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ Pressurizer Level Setpoint Controller, RCN-
+LIC-110, is aligned as seen to the right 
+ Level Control Channel X/Y Selector, RCN-HS-
+110, is selected to Channel X 
+ Charging Pump Mode Selector, CHN-HS-4, is 
+in the 1-2-3 position 
+ All Charging Pumps are in the auto after-stop 
+green flagged position 
+ 
+Subsequently: 
+ 
+ Level Control Channel X, RCA-LI-110X, failed 
+to 0% 
+ 
+With NO operator action, the ‘E’ Charging Pump 
+will ___(1)___ and the in-service Letdown Control 
+Valve ___(2)___ modulate in response to the 
+Level Control Channel failure.","(1)  auto start 
+(2)  WILL","(1)  auto start 
+(2)  will NOT","(1)  remain off 
+(2)  WILL","(1)  remain off 
+(2)  will NOT",B
+58,"(1)  Per 40OP-9ZZ05, Power Operations, during a power descension from 100% to 
+80% ASI should be monitored using CPC Point ID… 
+ 
+(2) B05A alarm window 5A12B, CPC AUX PRE-TRIP, will annunciate AS SOON AS 
+ASI goes outside the band of…","(1)  0187 
+(2)  -0.18 to 0.17","(1)  0187 
+(2)  -0.45 to 0.45","(1)  0266 
+(2)  -0.18 to 0.17","(1)  0266 
+(2)  -0.45 to 0.45",B
+59,"Which of the following describes the INITIAL Steam Bypass Control System response to 
+a spurious Reactor trip from 100% power?",All eight SBCS valves will quick open,ONLY the Group X SBCS valves will quick open,ONLY the Group Y SBCS valves will quick open,None of the SBCS valves will quick open,B
+60,"What chemical is stored on the 80’ level of Containment to aid in mitigating a LOCA 
+inside Containment and what function does this chemical perform? 
+ 
+___(1)___ is stored in the 80’ level of Containment in order to ___(2)___ following a 
+RAS actuation.","(1)  Charcoal  
+(2)  prevent boric acid precipitation in the Containment Spray nozzles","(1)  Charcoal 
+(2)  aid the Containment Spray system to maintain iodine in solution","(1)  Trisodium Phosphate 
+(2)  prevent boric acid precipitation in the Containment Spray nozzles","(1)  Trisodium Phosphate 
+(2)  aid the Containment Spray system to maintain iodine in solution",D
+61,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ A complete loss of Spent Fuel Pool Cooling has occurred 
+ Radiation levels are rising in the Fuel Building 
+ 
+With NO operator action, Train ‘A’ and Train ‘B’ FBEVAS will automatically actuate if the 
+setpoint is reached on ___(1)___ and a Train ‘A’ and Train ‘B’ CREFAS will 
+automatically actuate if the setpoint is reached on ___(2)___ . 
+ 
+NOTE: 
+ 
+ RU-31, Fuel Pool Area Radiation Monitor 
+ RU-145, Fuel Building Ventilation Exhaust Radiation Monitor 
+ RU-146, Fuel Building Ventilation Exhaust High Range Radiation Monitor","(1)  RU-145 ONLY 
+(2)  RU-146 ONLY","(1)  RU-145 ONLY 
+(2)  either RU-31 OR RU-145","(1)  either RU-31 OR RU-145 
+(2)  RU-146 ONLY","(1)  either RU-31 OR RU-145 
+(2)  either RU-31 OR RU-145",D
+62,"A Self-Reading Dosimeter (SRD) is required when locally aligning SG Blowdown for 
+frequent swapping on which of the following PVNGS Units?",Unit 1 ONLY,Unit 2 ONLY,Unit 3 ONLY,All 3 Units,B
+63,"Given the following conditions: 
+ 
+ Unit 2 is operating at 30% power 
+ CEDMCS Mode Selector Switch in in AUTO 
+ The BOP reports EHC pressure is 1500 psig and slowly lowering 
+ 
+If EHC pressure continues to lower, the crew should anticipate an automatic Main 
+Turbine trip AS SOON AS EHC pressure lowers to ___(1)___ and following the Main 
+Turbine trip, the CRS should enter ___(2)___ .","(1)  1100 psig 
+(2)  40AO-9ZZ08, Load Rejection","(1)  1100 psig 
+(2)  40EP-9EO01, Standard Post Trip Actions","(1)  1300 psig 
+(2)  40AO-9ZZ08, Load Rejection","(1)  1300 psig 
+(2)  40EP-9EO01, Standard Post Trip Actions",A
+64,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ A Containment Purge is in progress in preparation for a Containment entry 
+ 
+Subsequently : 
+ 
+ RU-37, Power Access Purge Monitor ‘A’, failed high  
+ 
+With NO operator action, which of the following describes the expected status of the 
+listed Containment Purge components one minute after the failure of RU-37? 
+ 
+The Power Access Purge Containment Isolation Valves will be closed on Train 
+___(1)___ and the Power Access Purge Supply and Exhaust Fans will ___(2)___ .","(1)  ‘A’ ONLY 
+(2)  be tripped","(1)  ‘A’ ONLY 
+(2)  remain running","(1)  ‘A’ AND ‘B’ 
+(2)  be tripped","(1)  ‘A’ AND ‘B’ 
+(2)  remain running",C
+65,"A fire in the Main Generator Exciter Power Conversion Room (PCR) Building will cause 
+an alarm to annunciate on the Fire Detection Panel ___(1)___, and upon receipt of the 
+alarm(s), the Control Room should dispatch an AO to ___(2)___ the STAT-X fire 
+suppression system.","(1)  ONLY 
+(2)  manually actuate","(1)  ONLY 
+(2)  verify automatic actuation of","(1)  AND B06 
+(2)  manually actuate","(1)  AND B06 
+(2)  verify automatic actuation of",C
+66,"Given the following conditions: 
+ 
+ A Reactor Operator stood five 12-hour shifts as OATC from Feb 1 to Feb 5 
+ The same operator stood one 12-hour shift as OATC and four 12-hour shifts as  
+Area 2 from April 18 to April 22 
+ 
+Per 40DP-9OP02, Conduct of Operations, assuming all other license requirements 
+remain satisfied, if the RO stands no other watches, when is EARLIEST date they will 
+NO LONGER BE ALLOWED to stand watch as the OATC?",May 9,July 1,July 24,October 1,B
+67,"Per 40DP-9OP33, Shift Turnover, oncoming Reactor Operators are required to review 
+Night Orders ___(1)___ turnover, and review Standing Orders ___(2)___ turnover .","(1)  before 
+(2)  before","(1)  before 
+(2)  after","(1)  after 
+(2)  before","(1)  after 
+(2)  after",B
+68,"Per 01DP-01AP57, Management of Critical Evolutions and Infrequently Performed 
+Tests or Evolutions, which one of the following Critical Evolutions is classified as IPTE 
+and REQUIRES Senior Line Manager oversight?",Reducing power from 100 to 85%,Swapping trains of Shutdown Cooling,Synchronizing the Main Generator to the grid,Shifting from Auxiliary Feedwater to Main Feedwater,C
+69,"Given the following conditions: 
+ 
+ The crew is preparing to perform a quarterly timed valve stroke in-service test (IST) 
+ Two days before performing the quarterly valve stroke, maintenance completed the 
+scheduled annual motor lubrication PM on the valve’s motor operator 
+ During the valve stroke, a VPI light burned out and the IST was suspended 
+ The light was replaced and the valve stroke IST was successfully re-performed 
+ 
+Per 73DP-9ZZ14, Surveillance Testing: 
+ 
+Lubrication of the valve’s motor operator two days before the valve stroke would be 
+considered ___(1)___ preconditioning.  
+ 
+The suspended valve stroke conducted prior to the completed timed valve stroke would 
+be considered ___(2)___ preconditioning.","(1)  acceptable 
+(2)  acceptable","(1)  acceptable 
+(2)  unacceptable","(1)  unacceptable 
+(2)  acceptable","(1)  unacceptable 
+(2)  unacceptable",A
+70,"(1)  During the INITIAL Reactor startup following refueling, MODE 2 is declared when... 
+ 
+(2)  During a cooldown for a refueling outage, MODE 4 is declared when…","(1)  the Reactor goes critical 
+(2) Shutdown Cooling is placed in service","(1)  the Reactor goes critical 
+(2)  RCS cold leg temperature lowers to less than 350°F","(1)  CEAs have been withdrawn to the ECRP -750 pcm position 
+(2) Shutdown Cooling is placed in service","(1)  CEAs have been withdrawn to the ECRP -750 pcm position 
+(2)  RCS cold leg temperature lowers to less than 350°F",D
+71,"Per 10CFR20.1201, Occupational Dose Limits, the annual limit for TEDE for adults  
+is ___(1)___ . 
+ 
+Per 75DP-9RP01, Radiation Exposure and Access Control, the INITIAL administrative 
+exposure hold point for TEDE at PVNGS is ___(2)___ .","(1)  5 rem 
+(2)  1.5 rem","(1)  5 rem 
+(2)  2.5 rem","(1)  15 rem 
+(2)  1.5 rem","(1)  15 rem 
+(2)  2.5 rem",A
+72,"Given the following conditions: 
+ 
+ The CRS has directed adjusting the position of a locked throttle valve 
+ The adjustment is required to be checked by a second operator 
+ The dose rate in the area of the valve is 1200 mrem/hr (the highest dose rate in the 
+room) 
+ 
+Per 75RP-0RP01, Radiological Posting and Labeling, the room the valve is located in 
+should be posted as a ___(1)___ . 
+ 
+Per 40AC-0ZZ06, Locked Valve, Breaker, and Component Control, the second check of 
+the valve position should be done using ___(2)___ verification.","(1)  High Radiation Area 
+(2)  concurrent","(1)  High Radiation Area 
+(2)  independent","(1)  Locked High Radiation Area 
+(2)  concurrent","(1)  Locked High Radiation Area 
+(2)  independent",C
+73,"Per 01DP-0AP09, Procedure and Work Instruction Use and Adherence: 
+ 
+(1) When a procedure says, “ENSURE that the pump is running”, the word “ENSURE” 
+means to check that the pump is running, and if not, … 
+ 
+(2) When a procedure says, “GO TO 40OP-9XX01”, the phrase “GO TO” means to…","(1)  attempt to start it 
+(2)  exit the procedure in use and perform 40OP-9XX01","(1)  attempt to start it 
+(2)  perform 40OP-9XX01 concurrently with the procedure in use","(1)  do NOT attempt to start it 
+(2)  exit the procedure in use and perform 40OP-9XX01","(1)  do NOT attempt to start it 
+(2)  perform 40OP-9XX01 concurrently with the procedure in use",A
+74,"Per 40DP-9AP15, Emergency and Abnormal Operating Procedure Writer’s Guide: 
+ 
+(1) An asterisk to the left of a step indicates that the step is a… 
+ 
+(2) Parameter values to be used when Containment conditions are harsh are 
+annotated by the use of…","(1)  hold point 
+(2)  brackets","(1)  hold point 
+(2)  bolded text","(1)  trigger step 
+(2)  brackets","(1)  trigger step 
+(2)  bolded text",C
+75,"Regarding the RK annunciator system, the HIGHEST priority alarm color is ___(1)___ 
+and the SECOND HIGHEST priority alarm color is ___(2)___ .","(1)  red 
+(2)  green","(1)  red 
+(2)  amber","(1)  white 
+(2)  green","(1)  white 
+(2)  amber",A
+76,"Given the following conditions: 
+ 
+ Unit 2 was tripped from 100% power due to a 150 gpm RCS leak into Containment  
+ The crew manually tripped the Reactor and manually initiated SIAS and CIAS 
+ SPTAs have been completed and the CRS has entered 40EP-9EO03, LOCA 
+ The crew has just commenced a cooldown and depressurization 
+ Containment Level transmitter, SIB-LI-707 (B02), is indicating off-scale low 
+ Containment Sump East/West transmitter, RDN-LI-410 (B07), is indicating 35” and 
+slowly rising 
+ 
+Per 40EP-9EO03, Loss of Coolant Accident, which of the following Standard 
+Appendices should the CRS direct the crew to implement? 
+ 
+1. Appendix 6, Spray Valve Actuation Data Sheet 
+2. Appendix 17, Restoration of Containment Cooling 
+3. Appendix 14, Aligning Charging Pump Discharge to the HPSI Header",2 ONLY,3 ONLY,1 and 2 ONLY,1 and 3 ONLY,C
+77,"Given the following conditions: 
+ 
+ Unit 2 was tripped due to a LOCA 
+ The CRS has entered 40EP-9EO03, LOCA 
+ The following conditions exist: 
+o All RCPs have been stopped 
+o Thot is 335°F and slowly lowering 
+o Tcold is 325°F and slowly lowering 
+o REPCET is 350°F and slowly lowering 
+o RCS pressure is 50 psia and slowly lowering 
+o SI flow is meeting Appendix 2 requirements 
+o QSPDS indicates 16% in the Reactor Vessel Head 
+o Containment temperature is 190°F and stable 
+ 
+Per 40EP-9EO03, Loss of Coolant Accident, the RCS Inventory Control Safety Function 
+___(1)___ satisfied, and the Core Heat Removal Safety Function ___(2)___ satisfied.","(1)  IS 
+(2)  IS","(1)  IS 
+(2)  is NOT","(1)  is NOT 
+(2)  IS","(1)  is NOT 
+(2)  is NOT",D
+78,"Given the following conditions: 
+ 
+ Unit 3 is operating at 100% power 
+ RCE-PV-100E, Pressurizer Spray Control Valve from RCS Loop 1A, indicates mid-
+position 
+ All attempts to close RCE-PV-100E have failed 
+ All Pressurizer heaters have been energized 
+ All PPCS control systems have been confirmed to be operating properly 
+ Pressurizer pressure is 2200 psia and lowering at a rate of 5 psia/min 
+ 
+The CRS should direct the crew to…","immediately trip the Reactor per 40AO-9ZZ16, RRS Malfunctions","immediately trip the Reactor per 40AL-9KR4A, B04A Alarm Response Procedure","commence a rapid shutdown per 40OP-9ZZ05, Power Operations, Section 6.5, 
+Rapid Shut Down – Rapid Down Power","commence a rapid shutdown per 40OP-9ZZ07, Plant Shutdown Mode 1 to Mode 3, 
+Section 6.1, Reactor Shutdown By Opening Reactor Trip Switchgear Breakers",B
+79,"Given the following conditions: 
+ 
+ The Reactor was tripped from 100% power due to a SGTR on SG #2 
+ The following conditions are present during SPTAs: 
+o Fast Bus Transfer failed on NAN-S01 and NAN-S02 
+o A complete loss of Condenser vacuum has occurred 
+o Pressurizer level is 5% and lowering 
+o Pressurizer pressure is 1300 psia and slowly lowering 
+o RCS subcooling is 27°F and slowly degrading 
+o CET subcooling is 21°F and slowly degrading  
+o Containment temperature is 118°F and slowly rising 
+o Containment pressure is 0.5 psig and slowly rising 
+o Containment humidity is stable 
+ 
+Per the EAL Hot Chart, the Containment Barrier is ___(1)___ and the Fuel Cladding 
+Barrier is ___(2)___ .","(1)  intact 
+(2)  intact","(1)  intact 
+(2)  potentially lost","(1)  lost 
+(2)  intact","(1)  lost 
+(2)  potentially lost",A
+80,"Given the following conditions: 
+ 
+ Unit 1 tripped from 100% power due to a loss of offsite power 
+ Both EDGs tripped on overspeed and are unavailable 
+ The CRS has entered 40EP-9EO08, Blackout 
+ The ECC estimates offsite power will be available in ~ 2 hours 
+ The crew has started SBOG #1 per Appendix 111, Station Blackout Generator 
+Operation 
+ The CRS is preparing to direct the crew to perform following appendices: 
+o Appendix 53, Align De-energized Buses 
+o Appendix 80, Align SBOG to PBA-S03 
+o Appendix 54, Energizing Switchyard Loads From the SBOGs 
+ 
+Per 40EP-9EO08, Blackout, the CRS should direct the crew to ___(1)___ , then direct 
+the crew to perform Appendix 54 using ___(2)___ .","(1)  perform Appendix 53 and Appendix 80 CONCURRENTLY 
+(2)  SBOG #1","(1)  perform Appendix 53 and Appendix 80 CONCURRENTLY 
+(2)  SBOG #2","(1)  COMPLETE Appendix 53 prior to performing Appendix 80 
+(2)  SBOG #1","(1)  COMPLETE Appendix 53 prior to performing Appendix 80 
+(2)  SBOG #2",A
+81,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ SPA-P01, Train ‘A’ Spray Pond Pump, has been under clearance for the past 68 
+hours for corrective maintenance 
+ 
+Subsequently: 
+ 
+ NBN-X04, Train ‘B’ ESF Supply Transformer, tripped on sudden pressure 
+ The ‘B’ EDG tripped on overspeed upon starting 
+ 
+Per Technical Specifications, if no equipment is returned to service, Unit 1 must be in 
+MODE 3 within a MAXIMUM of…",6 hours,7 hours,8 hours,10 hours,B
+82,"Given the following conditions: 
+ 
+ Unit 1 is operating at 8% power 
+ CEAs are being withdrawn for a power ascension 
+ After releasing the CEA Withdraw/Insert switch, Group 5 CEA 15 continued to 
+withdraw with no demand signal 
+ The CEDMCS Mode Selector Switch was placed in Standby and CEA 15 stopped 
+moving at 39” withdrawn 
+ All other Group 5 CEAs are 31.5” withdrawn 
+ 
+Per the PVNGS Core Operating Limits Report (COLR), the crew ___(1)___ required to 
+perform a power reduction, and per LCO 3.1.5, CEA Alignment, CEA 15 must be 
+realigned with its group within a MAXIMUM of ___(2)___ hours.","(1)  IS 
+(2)  2","(1)  IS 
+(2)  6","(1)  is NOT 
+(2)  2","(1)  is NOT 
+(2)  6",C
+83,"Given the following conditions: 
+ 
+ Unit 1 is operating at 100% power 
+ At time = 0100:  A 30 gpm SGTL occurred on SG #1 
+ The leakrate rate of change has been determined to be 0 gpm/hr 
+ 
+Assuming the leak rate remains constant: 
+ 
+Per Technical Specifications, Unit 1 must be in MODE 3 no later than ___(1)___ . 
+ 
+The event in progress ___(2)___ require an EAL to be declared.","(1)  0700 
+(2)  DOES","(1)  0700 
+(2)  does NOT","(1)  1100 
+(2)  DOES","(1)  1100 
+(2)  does NOT",A
+84,"Which of the following valves, INDIVIDUALLY, would require entry into LCO 3.6.3, 
+Containment Isolation Valves, if the valve was determined to be incapable of 
+automatically closing during MODES 1 through 4? 
+ 
+1.  Main Steam Isolation Valve, SGE-UV-170 
+2.  MSIV Bypass Isolation Valve, SGE-UV-169 
+3.  Downcomer Feedwater Isolation Valve, SGA-UV-172",2 ONLY,3 ONLY,1 and 2 ONLY,1 and 3 ONLY,A
+85,"Given the following conditions: 
+ 
+ Unit 1 tripped from 100% power due to an ESD inside Containment 
+ On the trip, NBN-X03 ‘A’ ESF Transformer tripped on ground fault lockout 
+ The ‘A’ EDG tripped on Low Lube Oil immediately after starting 
+ Containment Pressure is 12 psig and rising 
+ The ‘B’ LPSI Pump is tagged out for corrective maintenance 
+ The ‘B’ CS Pump tripped on overcurrent immediately after starting 
+ NCB-UV-401, NCW CNTMT UPSTREAM SPLY ISOL VLV, is closed 
+ NCA-UV-402, NCW CNTMT DOWNSTREAM RETURN ISOL VLV, is open  
+ NCB-UV-403, NCW CNTMT UPSTREAM RETURN ISOL VLV, is closed  
+ 
+Based on these conditions, the CRS should enter 40EP-9EO09, Functional Recovery, 
+and jeopardize… 
+ 
+NOTE: 
+ 
+MVAC-1:  Offsite Power 
+CI-1:  Auto/Man CTMT Isolation 
+CTPC-2:  CS","MVAC-1, CI-1 AND CTPC-2",MVAC-1 and CI-1 ONLY,CI-1 and CTPC-2 ONLY,MVAC-1 and CTPC-2 ONLY,D
+86,"At time 0100: 
+ 
+ RCS Tcold is 215°F and slowly lowering 
+ SDC is in service 
+ RCS cooldown is in progress at a rate of 20°F/hr 
+ Pressurizer level is 50% and stable 
+ 
+At time 0130:   
+ 
+ The LTOP spuriously lifted, resulting in the RCS heating up at a rate of 1°F/minute 
+ 
+At time 0140:   
+ 
+ The LTOP reseated and RCS temperature began lowering at a rate of 20°F/hr 
+ 
+Based on the listed conditions, the CRS should enter ___(1)___ and the event should 
+be classified as ___(2)___ .","(1)  40EP-9EO09, Functional Recovery 
+(2)  CU3.1","(1)  40EP-9EO09, Functional Recovery 
+(2)  CA3.1","(1)  40EP-9EO11, Lower Mode Functional Recovery 
+(2)  CU3.1","(1)  40EP-9EO11, Lower Mode Functional Recovery 
+(2)  CA3.1",C
+87,"Given the following indications on B05 while operating at 100% power: 
+ 
+Per the Technical Specification Bases for LCO 3.3.1, RPS Instrumentation – Operating: 
+ 
+(1)  The failed instrument is designed to provide protection in the event of a… 
+ 
+(2)  Within one hour, the crew must bypass/trip the associated pressure channel…","(1)  Loss of Coolant Accident 
+(2)  ONLY","(1)  Loss of Coolant Accident 
+(2)  AND LPD-High and DNBR-Low","(1)  Main Feedwater Line Break 
+
+(2)  ONLY","(1)  Main Feedwater Line Break 
+(2)  AND LPD-High and DNBR-Low",D
+88,"Given the following conditions: 
+ 
+ Unit 2 is operating at 100% power 
+ At time = 1200:  Engineering informed the Control Room that 3 Pressurizer Safety 
+Valves on Unit 2 are outside of their TS lift tolerances 
+ 
+Assuming the lift setpoints cannot be adjusted in the next 24 hours, what is the LATEST 
+time that Unit 2 must be in MODE 3 in order to comply with LCO 3.4.10, Pressurizer 
+Safety Valves – MODES 1, 2, and 3?",1800,1815,1900,1915,A
+89,"Given the following conditions: 
+ 
+ A large break LOCA has occurred on Unit 2 
+ RAS has automatically actuated 
+ All automatic and manual post-RAS actions have been completed 
+ The CS and HPSI Pumps are operating as follows: 
+ 
+Pump Discharge Press Amps 
+‘A’ HPSI Pump Lowering Erratic 
+‘A’ CS Pump Lowering Erratic 
+‘B’ HPSI Pump Stable Stable 
+‘B’ CS Pump Stable Stable 
+ 
+Per 40EP-9EO03, Loss of Coolant Accident, the CRS should direct the crew to 
+IMMEDIATELY…",stop the ‘A’ CS Pump and throttle HPSI flow to ~ 250 gpm,stop the ‘A’ CS Pump and monitor performance of the ‘A’ HPSI Pump,stop the ‘A’ HPSI Pump and monitor performance of the ‘A’ CS Pump,"stop BOTH the ‘A’ HPSI and the ‘A’ CS Pumps and monitor performance of the 
+‘B’ HPSI and CS Pumps",B
+90,"Given the timeline of events: 
+ At time = 0100:  All three units tripped due to a loss of offsite power following an
+Operating Basis Earthquake:
+ At time = 0105:  Unit 1 had a loss of both EDGs due to Spray Pond piping ruptures
+in both EDG rooms
+ At time = 0115:  The Unit 1 CRS entered 40EP-9EO08, Blackout
+ At time = 0120:  Units 2 and 3 each reported that they have lost one EDG and their
+remaining EDG is supplying their Train ‘A’ Class 4.16kV Bus
+ At time = 0125:  The ECC reported that an offsite line will be available in ~ 3 hours
+ At time = 0155:  The SBOG operator reports that neither SBOG will start
+Based on the timeline of events, the Unit 1 CRS should ___(1)___ , and 40MG-9ZZ07, 
+FLEX Support Guidelines, ___(2)___ required to be performed.","(1)  remain in 40EP-9EO08, Blackout 
+(2) IS","(1)  remain in 40EP-9EO08, Blackout
+(2) is NOT","(1)  transition to 40EP-9EO09, Functional Recovery
+(2) IS","(1)  transition to 40EP-9EO09, Functional Recovery
+(2) is NOT
+Deleted",A
+91,"Given the following conditions: 
+ The Reactor is being started up per 40OP-9ZZ03, Reactor Startup, following a mid -
+cycle Reactor trip
+ The Reactor was at equilibrium xenon when the startup commenced
+ Regulating Group 5 CEAs have been withdrawn to 135” and the Reactor is still
+subcritical by ~ 150 pcm
+ Reactor Engineering has determined that boron concentration was set too high due
+to an error in the critical boron concentration calculation
+Per 40OP-9ZZ03, Reactor Startup, what is the MINIMUM required action the crew must 
+perform to bring the Reactor to criticality?","Perform a dilution to achieve a boron concentration which is within 100 pcm of the
+most recent ACP, then withdraw Group 5 CEAs to criticality","Insert Regulating Group CEAs to compensate for the dilution reactivity plus 200
+pcm, perform a dilution to achieve the proper boron concentration, then withdraw
+Regulating Group CEAs to criticality","Insert ALL Regulating Group CEAs ONLY to the lower group stop, perform a
+dilution to achieve the proper boron concentration, then withdraw Regulating Group
+CEAs to criticality","Insert ALL CEAs by tripping the Reactor, perform a dilution to achieve the proper
+boron concentration, then re-commence CEA withdrawal to criticality",B
+92,"Per 40ST-9ZZ10, Post Accident Monitoring Instrumentation Channel Checks, QSPDS A 
+and QSPDS B must EACH have a MINIMUM of ___(1)___ OPERABLE CETs in a 
+MINIMUM of ___(2)___ core quadrants to satisfy the requirements of LCO 3.3.10, PAM 
+Instrumentation.","(1)  1
+(2) 2","(1)  1
+(2) 4","(1)  2
+(2) 2","(1)  2
+(2) 4",D
+93,"Per 78OP-9FX01, Refueling Machine Operations: 
+(1) To prevent fuel assembly grid strap binding, unless otherwise directed by the
+Refueling SRO, the Refueling Team SHALL use…
+(2) If the equipment described in part 1 is out of service, continuation of fuel
+movements requires the approval of the…","(1)  Fuel Assembly Guides
+(2) Operations Director","(1)  Fuel Assembly Guides
+(2) Shift Manager","(1)  the Fuel Spreader
+(2) Operations Director","(1)  the Fuel Spreader
+(2) Shift Manager",D
+94,"Per LCO 3.4.17, RCS Specific Activity, the unit must immediately enter a required 
+action to be in MODE 3 within 6 hours if DOSE EQUIVALENT ___(1)___ exceeds a 
+MINIMUM of ___(2)___ .","(1)  Xe-133
+(2) 550 µCI/gm","(1)  Xe-133
+(2) 60 µCI/gm","(1)  I-131
+(2) 550 µCI/gm","(1)  I-131
+(2) 60 µCI/gm",D
+95,"Given the following conditions: 
+ On 4/5/19 at 2400:  Unit 1 was tripped in preparation for a refueling outage
+ On 4/8/19 at 1600:  The Reactor Vessel Head was removed
+ On 4/9/19 at 2000:  The UGS Lift Rig CEA Support Plate was raised with CEAs
+attached
+(1) Per 40OP-9ZZ23, Outage GOP, the CRS should log that Core Alterations
+commenced when the…
+(2) Per the PVNGS Technical Requirements Manual, the core off-load may not
+commence until the Reactor has been subcritical for a MINIMUM of…","(1)  Reactor Vessel Head was removed
+(2) 100 hours","(1)  Reactor Vessel Head was removed
+(2) 149 hours","(1)  UGS Lift Rig CEA Support Plate was raised
+(2) 100 hours","(1)  UGS Lift Rig CEA Support Plate was raised
+(2) 149 hours",C
+96,"Given the following conditions: 
+ A design change is being proposed for all three units
+ The proposed change is required to be assessed using the 50.59 process
+(1) Which part of the 50.59 process will indicate if a 50.59 evaluation is required to be
+performed?
+(2) If a 50.59 evaluation is required, what are the MINIMUM qualifications required to
+perform the evaluation?","(1)  Screening
+(2) 50.59 Evaluator qualification ONLY","(1)  Screening
+(2) 50.59 Evaluator qualification AND an SRO license","(1)  Applicability Determination
+(2) 50.59 Evaluator qualification ONLY","(1)  Applicability Determination
+(2) 50.59 Evaluator qualification AND an SRO license",A
+97,"(1) Per 74RM-9EF20, Gaseous Radioactive Release Permits and Offsite Dose
+Assessment, how long is a Non-Standard Containment Purge (NSCP) release
+permit valid for?
+(2) Per 40OP-9CP01, Containment Purge System, prior to venting Containment,
+74ST-9SQ07, Radiation Monitoring System Shiftly Surveillance Test, is required to
+be current for...
+NOTE: 
+ RU-34, Containment Purge Ventilation Monitor
+ RU-37, Power Access Purge Area Monitor A
+ RU-38, Power Access Purge Area Monitor B","(1)  1 day
+(2) RU -34","(1)  1 day
+(2) RU -37 and RU-38","(1)  7 days
+(2) RU -34","(1)  7 days
+(2) RU -37 and RU-38",B
+98,"Per EP-0905, Protective Actions, when determining who should be selected to perform 
+life-saving efforts during an emergency with the potential to result in high-dose 
+exposures, the Emergency Coordinator should give primary consideration to persons 
+___(1)___ the age of 45, and those people selected to perform these efforts MUST be 
+volunteers if the expected dose will exceed a MINIMUM of ___(2)___ REM.","(1)  over
+(2) 10","(1)  over
+(2) 25","(1)  under
+(2) 10","(1)  under
+(2) 25",B
+99,"(1) Per 40EP-9EO07, LOOP/LOFC, to meet the Containment Temperature and
+Pressure Control Safety Function following a loss of offsite power, Containment
+temperature must be less than a MAXIMUM of…
+(2) Per 40EP-9EO08, Blackout, to meet the Containment Temperature and Pressure
+Control Safety Function, Containment temperature must be less than a MAXIMUM
+of…","(1)  117°F
+(2) 200°F","(1)  117°F
+(2) 2 35°F","(1)  125°F
+(2) 200 °F","(1)  125°F
+(2) 235 °F",A OR C
+100,"Given the following conditions: 
+ 
+ At time = 1305:  The Shift Manager declared an Alert classification 
+ At time = 1315:  State and Local Agencies were notified of the event 
+ 
+Per EP-0902, Notifications, the NRC must be notified NO LATER THAN…",1320,1330,1405,1415,C
