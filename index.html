@@ -89,6 +89,8 @@
           <option value="2020">2020 NRC Written Exam (100 Qs)</option>
           <option value="2021">2021 NRC Written Exam (100 Qs)</option>
           <option value="2022">2022 NRC Written Exam (100 Qs)</option>
+          <option value="2023">2023 NRC Written Exam (100 Qs)</option>
+          <option value="2024">2024 NRC Written Exam (100 Qs)</option>
         </select>
       </div>
 
@@ -181,8 +183,10 @@
       loadCSV("palo_verde_2020_nrc_written_exam.csv", "2020"),
       loadCSV("palo_verde_2021_nrc_written_exam.csv", "2021"),
       loadCSV("palo_verde_2022_nrc_written_exam.csv", "2022")
-    ]).then(([d19, d20, d21, d22]) => {
-      allQuestions = [...d19, ...d20, ...d21, ...d22];
+      loadCSV("palo_verde_2023_nrc_written_exam.csv", "2023"),
+      loadCSV("palo_verde_2024_nrc_written_exam.csv", "2024"),
+    ]).then(([d19, d20, d21, d22, d24, d24]) => {
+      allQuestions = [...d19, ...d20, ...d21, ...d22, ...d23, ...d24];
       document.getElementById("start-btn").disabled = false;
       document.getElementById("loading-msg").style.display = "none";
       updateMaxQuestions();
