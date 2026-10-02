@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Palo Verde Initial License Exam Practice</title>
-  <!-- Fast, zero-dependency client-side CSV parser -->
+  <!-- Client-side CSV parser -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <style>
     :root {
@@ -19,82 +19,108 @@
       --border: #334155;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    body { background-color: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; display: flex; justify-content: center; }
-    .container { width: 100%; max-width: 820px; }
-    header { text-align: center; margin-bottom: 28px; }
-    header h1 { font-size: 1.8rem; color: var(--primary); margin-bottom: 8px; }
+    body { background-color: var(--bg); color: var(--text); padding: 24px 16px; min-height: 100vh; display: flex; justify-content: center; }
+    .container { width: 100%; max-width: 860px; }
+    header { text-align: center; margin-bottom: 24px; }
+    header h1 { font-size: 1.85rem; color: var(--primary); margin-bottom: 6px; }
     header p { color: var(--text-muted); font-size: 0.95rem; }
     
-    .card { background-color: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+    .card { background-color: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
     
     /* Config Screen */
     .config-box { text-align: center; }
-    .config-box label { font-size: 1.05rem; display: block; margin-bottom: 8px; }
-    .config-box select, .config-box input { background: #0f172a; border: 1px solid var(--border); color: #fff; padding: 10px 16px; border-radius: 8px; font-size: 1rem; margin-bottom: 16px; }
-    .config-box input { width: 120px; text-align: center; }
-    .btn { background: var(--primary); color: #0f172a; border: none; font-weight: 600; padding: 10px 22px; border-radius: 8px; cursor: pointer; font-size: 1rem; transition: background 0.2s; }
-    .btn:hover { background: var(--primary-hover); }
+    .form-group { margin-bottom: 18px; text-align: left; max-width: 420px; margin-left: auto; margin-right: auto; }
+    .form-group label { font-size: 0.95rem; display: block; margin-bottom: 6px; color: var(--text-muted); font-weight: 500; }
+    .form-group select, .form-group input { width: 100%; background: #0f172a; border: 1px solid var(--border); color: #fff; padding: 10px 14px; border-radius: 8px; font-size: 1rem; outline: none; }
+    .form-group select:focus, .form-group input:focus { border-color: var(--primary); }
+    
+    .btn { background: var(--primary); color: #0f172a; border: none; font-weight: 600; padding: 12px 28px; border-radius: 8px; cursor: pointer; font-size: 1rem; transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+    .btn:hover { background: var(--primary-hover); color: #fff; }
     .btn:disabled { opacity: 0.5; cursor: not-allowed; }
     
     /* Quiz Screen */
-    .progress-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; color: var(--text-muted); font-size: 0.9rem; }
-    .question-title { font-size: 1.15rem; font-weight: 600; line-height: 1.5; margin-bottom: 18px; white-space: pre-line; }
+    .progress-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; color: var(--text-muted); font-size: 0.9rem; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+    .badge { background: #334155; color: var(--primary); padding: 4px 10px; border-radius: 6px; font-weight: 600; font-size: 0.85rem; }
+    .question-title { font-size: 1.15rem; font-weight: 600; line-height: 1.55; margin-bottom: 20px; white-space: pre-line; word-break: break-word; }
+    .question-title img { max-width: 100%; height: auto; border-radius: 8px; margin: 12px auto; display: block; border: 1px solid var(--border); background: #fff; }
+    
     .options-grid { display: grid; gap: 12px; margin-bottom: 20px; }
-    .opt-btn { background: #0f172a; border: 1px solid var(--border); border-radius: 8px; padding: 14px 18px; color: var(--text); text-align: left; cursor: pointer; font-size: 0.98rem; line-height: 1.4; display: flex; gap: 12px; align-items: flex-start; transition: all 0.2s; white-space: pre-line; }
+    .opt-btn { background: #0f172a; border: 1px solid var(--border); border-radius: 8px; padding: 14px 18px; color: var(--text); text-align: left; cursor: pointer; font-size: 0.98rem; line-height: 1.45; display: flex; gap: 14px; align-items: flex-start; transition: all 0.2s; white-space: pre-line; }
     .opt-btn:hover { border-color: var(--primary); background: #132238; }
-    .opt-letter { background: var(--border); color: var(--primary); font-weight: 700; width: 28px; height: 28px; border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .opt-letter { background: var(--border); color: var(--primary); font-weight: 700; width: 30px; height: 30px; border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.95rem; }
+    .opt-content { flex-grow: 1; }
+    .opt-content img { max-width: 100%; height: auto; border-radius: 6px; margin: 8px 0; background: #fff; padding: 4px; border: 1px solid var(--border); }
     
     /* Feedback States */
-    .opt-btn.correct { background: rgba(34, 197, 94, 0.2); border-color: var(--success); }
+    .opt-btn.correct { background: rgba(34, 197, 94, 0.18); border-color: var(--success); }
     .opt-btn.correct .opt-letter { background: var(--success); color: #fff; }
-    .opt-btn.wrong { background: rgba(239, 68, 68, 0.2); border-color: var(--error); }
+    .opt-btn.wrong { background: rgba(239, 68, 68, 0.18); border-color: var(--error); }
     .opt-btn.wrong .opt-letter { background: var(--error); color: #fff; }
     .opt-btn:disabled { cursor: default; }
 
-    .action-row { display: flex; justify-content: flex-end; margin-top: 16px; }
+    .action-row { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; }
+    .feedback-note { font-weight: 600; font-size: 1rem; }
+    .feedback-note.pass { color: var(--success); }
+    .feedback-note.fail { color: var(--error); }
     
     /* Results Screen */
-    .score-summary { text-align: center; }
-    .score-large { font-size: 3rem; font-weight: 700; color: var(--primary); margin: 12px 0; }
+    .score-summary { text-align: center; padding: 36px 20px; }
+    .score-large { font-size: 3.4rem; font-weight: 700; color: var(--primary); margin: 12px 0; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 20px 0; }
+    .stat-box { background: #0f172a; border: 1px solid var(--border); padding: 12px; border-radius: 8px; }
+    .stat-label { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 4px; }
+    .stat-val { font-size: 1.3rem; font-weight: 700; }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>Palo Verde Initial License Exam Practice</h1>
-      <p>NRC Initial License Written Exam Practice Bank</p>
+      <p>NRC Initial License Written Exam Question Bank (2019 – 2022)</p>
     </header>
 
     <!-- Step 1: Config -->
     <div id="setup-card" class="card config-box">
-      <div>
-        <label for="year-select">Select Exam Bank:</label>
-        <select id="year-select">
-          <option value="all">All Available Years Combined</option>
-          <option value="2019">2019 Initial Exam (100 Qs)</option>
-          <option value="2020">2020 Initial Exam (100 Qs)</option>
+      <div class="form-group">
+        <label for="year-select">Exam Year Selection</label>
+        <select id="year-select" onchange="updateMaxQuestions()">
+          <option value="all">All Available Years Combined (400 Questions)</option>
+          <option value="2019">2019 NRC Written Exam (100 Qs)</option>
+          <option value="2020">2020 NRC Written Exam (100 Qs)</option>
+          <option value="2021">2021 NRC Written Exam (100 Qs)</option>
+          <option value="2022">2022 NRC Written Exam (100 Qs)</option>
         </select>
       </div>
 
-      <div>
-        <label for="q-count">How many questions would you like to take?</label>
-        <input type="number" id="q-count" min="1" max="200" value="10">
+      <div class="form-group">
+        <label for="tier-select">License Tier Level</label>
+        <select id="tier-select" onchange="updateMaxQuestions()">
+          <option value="all">Full Exam (RO & SRO-Only Q1–100)</option>
+          <option value="ro">RO General Only (Q1–75)</option>
+          <option value="sro">SRO-Only Portion (Q76–100)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="q-count">Number of Random Questions</label>
+        <input type="number" id="q-count" min="1" max="400" value="20">
       </div>
 
       <button class="btn" id="start-btn" disabled onclick="startQuiz()">Start Quiz</button>
-      <p id="loading-msg" style="margin-top: 12px; color: var(--text-muted);">Loading exam question banks...</p>
+      <p id="loading-msg" style="margin-top: 14px; color: var(--text-muted);">Loading exam question banks...</p>
     </div>
 
     <!-- Step 2: Quiz -->
     <div id="quiz-card" class="card" style="display: none;">
       <div class="progress-bar">
         <span id="q-progress">Question 1 of 10</span>
-        <span id="original-num">2019 Exam Q#1</span>
+        <span class="badge" id="original-num">2019 Exam Q#1</span>
       </div>
       <div id="q-text" class="question-title"></div>
       <div class="options-grid" id="options-container"></div>
       <div class="action-row">
-        <button class="btn" id="next-btn" style="display: none;" onclick="nextQuestion()">Next Question</button>
+        <span id="instant-feedback" class="feedback-note"></span>
+        <button class="btn" id="next-btn" style="display: none;" onclick="nextQuestion()">Next Question &rarr;</button>
       </div>
     </div>
 
@@ -102,7 +128,23 @@
     <div id="result-card" class="card score-summary" style="display: none;">
       <h2>Quiz Complete!</h2>
       <div class="score-large" id="score-text">0 / 0</div>
-      <p id="pct-text" style="color: var(--text-muted); margin-bottom: 20px;"></p>
+      <p id="pct-text" style="color: var(--text-muted); margin-bottom: 12px; font-size: 1.1rem;"></p>
+      
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-label">Result</div>
+          <div class="stat-val" id="pass-fail-val">-</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Total Questions</div>
+          <div class="stat-val" id="total-stat-val">0</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Correct Answers</div>
+          <div class="stat-val" style="color: var(--success);" id="correct-stat-val">0</div>
+        </div>
+      </div>
+
       <button class="btn" onclick="restart()">Take Another Quiz</button>
     </div>
   </div>
@@ -122,7 +164,8 @@
           complete: function(results) {
             const tagged = results.data.map(row => ({
               ...row,
-              'Exam Year': year
+              'Exam Year': year,
+              'QNumInt': parseInt(row['Question Number']) || 0
             }));
             resolve(tagged);
           },
@@ -135,24 +178,46 @@
 
     Promise.all([
       loadCSV("palo_verde_2019_nrc_written_exam.csv", "2019"),
-      loadCSV("palo_verde_2020_nrc_written_exam.csv", "2020")
-    ]).then(([d2019, d2020]) => {
-      allQuestions = [...d2019, ...d2020];
+      loadCSV("palo_verde_2020_nrc_written_exam.csv", "2020"),
+      loadCSV("palo_verde_2021_nrc_written_exam.csv", "2021"),
+      loadCSV("palo_verde_2022_nrc_written_exam.csv", "2022")
+    ]).then(([d19, d20, d21, d22]) => {
+      allQuestions = [...d19, ...d20, ...d21, ...d22];
       document.getElementById("start-btn").disabled = false;
       document.getElementById("loading-msg").style.display = "none";
+      updateMaxQuestions();
     }).catch(err => {
       alert("Error loading exam CSVs: " + err);
     });
 
-    function startQuiz() {
-      if (allQuestions.length === 0) return;
-
-      const selectedYear = document.getElementById("year-select").value;
+    function getFilteredPool() {
+      const year = document.getElementById("year-select").value;
+      const tier = document.getElementById("tier-select").value;
+      
       let pool = allQuestions;
-
-      if (selectedYear !== "all") {
-        pool = allQuestions.filter(q => q['Exam Year'] === selectedYear);
+      if (year !== "all") {
+        pool = pool.filter(q => q['Exam Year'] === year);
       }
+      if (tier === "ro") {
+        pool = pool.filter(q => q.QNumInt >= 1 && q.QNumInt <= 75);
+      } else if (tier === "sro") {
+        pool = pool.filter(q => q.QNumInt >= 76 && q.QNumInt <= 100);
+      }
+      return pool;
+    }
+
+    function updateMaxQuestions() {
+      const pool = getFilteredPool();
+      const qInput = document.getElementById("q-count");
+      qInput.max = pool.length;
+      if (parseInt(qInput.value) > pool.length || parseInt(qInput.value) < 1) {
+        qInput.value = Math.min(20, pool.length);
+      }
+    }
+
+    function startQuiz() {
+      const pool = getFilteredPool();
+      if (pool.length === 0) return;
 
       const requested = parseInt(document.getElementById("q-count").value) || 10;
       const count = Math.min(Math.max(1, requested), pool.length);
@@ -173,12 +238,16 @@
     function renderQuestion() {
       const q = activeQuiz[currentIndex];
       document.getElementById("q-progress").innerText = `Question ${currentIndex + 1} of ${activeQuiz.length}`;
-      document.getElementById("original-num").innerText = `${q['Exam Year']} Exam Q#${q['Question Number']}`;
-      document.getElementById("q-text").innerText = q['Question'];
+      
+      const tierLabel = q.QNumInt > 75 ? "SRO" : "RO";
+      document.getElementById("original-num").innerText = `${q['Exam Year']} Exam Q#${q['Question Number']} [${tierLabel}]`;
+      
+      document.getElementById("q-text").innerHTML = q['Question'];
       
       const container = document.getElementById("options-container");
       container.innerHTML = "";
       document.getElementById("next-btn").style.display = "none";
+      document.getElementById("instant-feedback").innerText = "";
 
       const opts = [
         { letter: 'A', text: q['Option A'] },
@@ -190,7 +259,7 @@
       opts.forEach(opt => {
         const btn = document.createElement("button");
         btn.className = "opt-btn";
-        btn.innerHTML = `<span class="opt-letter">${opt.letter}</span><span>${opt.text}</span>`;
+        btn.innerHTML = `<span class="opt-letter">${opt.letter}</span><div class="opt-content">${opt.text}</div>`;
         btn.onclick = () => selectOption(btn, opt.letter, q['Correct Answer'] || '');
         container.appendChild(btn);
       });
@@ -201,12 +270,18 @@
       buttons.forEach(b => b.disabled = true);
 
       const isCorrect = correctAns.includes(chosenLetter);
+      const feedback = document.getElementById("instant-feedback");
 
       if (isCorrect) {
         btn.classList.add("correct");
         score++;
+        feedback.innerText = "Correct!";
+        feedback.className = "feedback-note pass";
       } else {
         btn.classList.add("wrong");
+        feedback.innerText = `Incorrect. Correct answer is ${correctAns}`;
+        feedback.className = "feedback-note fail";
+        
         buttons.forEach(b => {
           const ltr = b.querySelector(".opt-letter").innerText;
           if (correctAns.includes(ltr)) {
@@ -215,7 +290,7 @@
         });
       }
 
-      document.getElementById("next-btn").style.display = "inline-block";
+      document.getElementById("next-btn").style.display = "inline-flex";
     }
 
     function nextQuestion() {
@@ -230,14 +305,28 @@
     function showResults() {
       document.getElementById("quiz-card").style.display = "none";
       document.getElementById("result-card").style.display = "block";
+      
       document.getElementById("score-text").innerText = `${score} / ${activeQuiz.length}`;
       const pct = Math.round((score / activeQuiz.length) * 100);
-      document.getElementById("pct-text").innerText = `Score: ${pct}% (80% NRC passing threshold)`;
+      document.getElementById("pct-text").innerText = `${pct}% Overall Score`;
+      
+      const passBox = document.getElementById("pass-fail-val");
+      if (pct >= 80) {
+        passBox.innerText = "PASSED";
+        passBox.style.color = "var(--success)";
+      } else {
+        passBox.innerText = "FAILED";
+        passBox.style.color = "var(--error)";
+      }
+      
+      document.getElementById("total-stat-val").innerText = activeQuiz.length;
+      document.getElementById("correct-stat-val").innerText = score;
     }
 
     function restart() {
       document.getElementById("result-card").style.display = "none";
       document.getElementById("setup-card").style.display = "block";
+      updateMaxQuestions();
     }
   </script>
 </body>
