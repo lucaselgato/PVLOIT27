@@ -185,7 +185,7 @@
       loadCSV("palo_verde_2022_nrc_written_exam.csv", "2022")
       loadCSV("palo_verde_2023_nrc_written_exam.csv", "2023"),
       loadCSV("palo_verde_2024_nrc_written_exam.csv", "2024"),
-    ]).then(([d19, d20, d21, d22, d24, d24]) => {
+    ]).then(([d19, d20, d21, d22, d23, d24]) => {
       allQuestions = [...d19, ...d20, ...d21, ...d22, ...d23, ...d24];
       document.getElementById("start-btn").disabled = false;
       document.getElementById("loading-msg").style.display = "none";
