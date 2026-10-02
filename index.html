@@ -241,6 +241,8 @@
 
     function renderQuestion() {
       const q = activeQuiz[currentIndex];
+      console.log("Question:", q);
+      console.log("Correct Answer:", q['Correct Answer']);
       document.getElementById("q-progress").innerText = `Question ${currentIndex + 1} of ${activeQuiz.length}`;
       
       const tierLabel = q.QNumInt > 75 ? "SRO" : "RO";
